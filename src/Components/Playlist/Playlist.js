@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrackList } from '../TrackList/TrackList';
+import TrackList from '../TrackList/TrackList';
 import './Playlist.css';
 
 class Playlist extends React.Component {
@@ -12,6 +12,6 @@ class Playlist extends React.Component {
             </div>
         )
     }
-}
+};
 
-export default Playlist 
+export default Playlist;
